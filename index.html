@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <a href="#about" class="logo">
+          <div class="logo-icon">
+            <svg
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="20"
+                cy="20"
+                r="19"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <text
+                x="20"
+                y="27"
+                text-anchor="middle"
+                fill="currentColor"
+                class="logo-letter"
+              >
+                A
+              </text>
+            </svg>
+          </div>
+        </a>
+        <nav class="nav">
+          <a href="#about" class="nav-name">about</a>
+          <a href="#projects">projects</a>
+          <a href="#products">products</a>
+          <a href="#contact">contact</a>
+        </nav>
+        <div class="social">
+          <a href="mailto:angelina.fronten@gmail.com">
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </a>
+          <a href="https://t.me/smmnlss">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section id="about" class="about">
+      <div class="hero">
+        <div class="hero-bg" role="img"></div>
+        <div class="hero-avatar">
+          <img src="images/avatar.png" alt="Фото" />
+        </div>
+      </div>
+      <main class="main-content about-content">
+        <h1 class="about-title">about.</h1>
+        <p class="about-lead">
+          Привет! Меня зовут Ангелина, я frontend-разработчик. Делаю аккуратные,
+          адаптивные сайты по макетам и по примерам: чистый и поддерживаемый
+          код, корректная работа на мобильных и десктопах.
+        </p>
+        <p class="about-text">
+          Умею быстро собирать страницы, добавлять новые разделы, править
+          существующую вёрстку и доводить интерфейс до ровного, аккуратного
+          результата. В работе ценю понятный план, сроки и регулярную обратную
+          связь — чтобы проект двигался спокойно и предсказуемо.
+        </p>
+      </main>
+    </section>
+    <section id="projects" class="section-block projects-section">
+      <h1 class="section-title">projects.</h1>
+      <div class="projects-grid">
+        <article class="project-card">
+          <a href="project-housecare.html" class="project-card-link">
+            <div
+              class="project-card-cover"
+              role="img"
+              aria-label="House Care — превью"
+            >
+              <img src="images/houseCare.png" alt="House Care" />
+            </div>
+            <h2 class="project-card-title">House Care</h2>
+            <p class="project-card-desc">
+              Сайт для строительной компании с каталогом проектов, блоками услуг
+              и преимуществ, слайдером объектов и двумя формами захвата.
+              Полностью реализовала проект: фронтенд, JS-логику, формы и
+              публикацию на хостинге. Главная задача — выстроить сильную
+              архитектуру сайта и сделать подачу большого объема информации
+              понятной для пользователя.
+            </p>
+          </a>
+          <a
+            href="https://nurahmetovaangelina-byte.github.io/buildhouses/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-card-external"
+            >Посмотреть можно здесь</a
+          >
+        </article>
+      </div>
+    </section>
+    <section id="products" class="products-content">
+      <h1 class="products-title">products.</h1>
+      <div class="products-grid">
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+              />
+            </svg>
+          </div>
+          <h2 class="product-card-title">Правки в вёрстке и адаптиву</h2>
+          <p class="product-card-desc">
+            Быстро исправлю поехавшие блоки, отступы и адаптив на разных
+            экранах. Поменяю тексты, картинки, цвета, аккуратно внесу правки в
+            существующий код.
+          </p>
+          <p class="product-price">
+            Стоимость: от 1 500 ₽ за небольшие правки (или 800 ₽/час)
+          </p>
+        </article>
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h2 class="product-card-title">Вёрстка секций по макетам в Figma</h2>
+          <p class="product-card-desc">
+            Сверстаю отдельный блок, секцию по макету: чистый HTML/CSS,
+            аккуратная сетка, корректный адаптив. Подойдёт для лендингов,
+            карточек, форм, галерей и т.д.
+          </p>
+          <p class="product-price">Стоимость: от 1 300 ₽ за блок</p>
+        </article>
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+            </svg>
+          </div>
+          <h2 class="product-card-title">Лендинг под ключ</h2>
+          <p class="product-card-desc">
+            Соберу лендинг по Figma полностью: адаптив, базовый интерактив
+            (меню, попап, слайдер), подключение форм без бэкенда.
+          </p>
+          <p class="product-price">Стоимость: от 10 000 ₽</p>
+        </article>
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 01-8 0" />
+            </svg>
+          </div>
+          <h2 class="product-card-title">Интернет-магазин</h2>
+          <p class="product-card-desc">
+            Сверстаю страницы магазина по макету: каталог, карточка товара,
+            корзина, оформление заказа. Сделаю аккуратный адаптив и удобную
+            структуру.
+          </p>
+          <p class="product-price">Стоимость: от 30 000 ₽</p>
+        </article>
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <rect x="3" y="3" width="7" height="7" />
+              <rect x="14" y="3" width="7" height="7" />
+              <rect x="14" y="14" width="7" height="7" />
+              <rect x="3" y="14" width="7" height="7" />
+            </svg>
+          </div>
+          <h2 class="product-card-title">Подключение интерактива (JS)</h2>
+          <p class="product-card-desc">
+            Добавлю функциональность на JavaScript: бургер-меню, попапы,
+            слайдеры, табы, аккордеоны. Всё будет работать стабильно и без
+            конфликтов.
+          </p>
+          <p class="product-price">
+            Стоимость: от 1 000 ₽ за элемент (бургер, попап, табы, аккордеон)
+          </p>
+        </article>
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+              <path d="M9 9l3 2 3-3" />
+            </svg>
+          </div>
+          <h2 class="product-card-title">Доработка и поддержка сайта</h2>
+          <p class="product-card-desc">
+            Сопровожу проект после запуска: мелкие правки, обновления блоков,
+            исправление багов, улучшение адаптива. Удобно для регулярных
+            обновлений.
+          </p>
+          <p class="product-price">
+            Стоимость: от 1 500 ₽/задача (или 800 ₽/час)
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="section-block">
+      <h1 class="section-title">contact.</h1>
+      <p>
+        <a href="mailto:angelina.fronten@gmail.com"
+          >angelina.fronten@gmail.com</a
+        >
+      </p>
+    </section>
+    <footer class="footer">
+      <p class="footer-text">© All Rights Reserved. For communication</p>
+      <p class="footer-email">
+        <a href="mailto:angelina.fronten@gmail.com"
+          >angelina.fronten@gmail.com</a
+        >
+      </p>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

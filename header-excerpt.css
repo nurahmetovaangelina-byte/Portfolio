@@ -1,0 +1,87 @@
+/* ========== ТОЛЬКО СТИЛИ ХЭДЕРА ========== */
+
+.header {
+  background-color: #1a1a1a;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  padding: 0 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 48px;
+}
+
+.logo-icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.logo-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s, text-shadow 0.2s;
+}
+
+.nav a:hover {
+  color: #8C8E91;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.12), 0 -1px 0 rgba(0,0,0,0.15);
+}
+
+.nav-link--active,
+.nav a.nav-link--active {
+  color: #8C8E91;
+  border-bottom-color: #8C8E91;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.12), 0 -1px 0 rgba(0,0,0,0.15);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 48px;
+}
+
+.social a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.social a:hover {
+  opacity: 0.8;
+}
+
+.social .icon {
+  width: 26px;
+  height: 26px;
+}
